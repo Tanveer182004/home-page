@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="income.png" type="image/x-icon">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="bkimg.avif" alt="bkimg" class="bkimg">
+    <header>
+        <img src="revenue.png" alt="logo" class="logo">
+        <h1>Finance Tracker</h1>
+        <a href="http://localhost:3000/login" class="login-button">Login</a>
+    </header>
+
+    <div class="slideshow-container">
+        <div class="slideshow">
+            <img class="slide fade" src="image1.jpg" alt="Image 1">
+            <img class="slide fade" src="image2.jpg" alt="Image 2">
+            <img class="slide fade" src="image3.avif" alt="Image 3">
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <section id="about">
+        <div class="con">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Finance Tracker! Our app helps you manage your finances effectively and efficiently.
+            Track your expenses, set budgets, and achieve your financial goals.
+        </p>
+        </div>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature-container">
+            <div class="feature">
+                <img src="feature1.avif" alt="Track Expenses">
+                <h3>Track Your Expenses</h3>
+                <p>Keep an eye on where your money goes.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.avif" alt="Set Budgets">
+                <h3>Set Budgets</h3>
+                <p>Create budgets to control your spending.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.avif" alt="Generate Reports">
+                <h3>Generate Reports</h3>
+                <p>Get insights into your spending patterns.</p>
+            </div>
+            <div class="feature">
+                <img src="feature4.jpg" alt="Financial Insights">
+                <h3>Get Financial Insights</h3>
+                <p>Understand your financial health.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Finance Tracker. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
